@@ -23,7 +23,7 @@ Network Diagram:  <br/>
 11. Run Ansible container and connect to it</br>
 12. Generate SSH key from container and overwrite Web Server SSH access key with Ansible VM key</br>
 13. Configure Ansible to connect to the Web Servers</br>
-14. Run Ansible Playbook to install DVWA on the Web Server</br>
+14. Run Ansible Playbook to install DVWA on the Web Servers</br>
 15. Create a Load Balancer with a front end public IP address and the backend connected to the Web Servers</br>
 16. Create a Load Balancing Rule to forward port 80 to the Web Servers allowing session persistence</br>
 17. Create an NSG rule to allow external internet traffic on port 80 from my home IP address to the load balancer and VNet</br>
